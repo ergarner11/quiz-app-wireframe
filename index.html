@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="descrition" content="Take a quiz to test your knowledge of completely random music facts"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+    </head>
+    <body>
+        <div>
+            <p>Wireframe for "Starting Page" view</p>
+            <header>
+                <h1>Music Quiz</h1>
+            </header>
+    
+            <main role="main">
+                <form role="form" method="POST">
+                    <p>The music world can be a weird place! Wanna test your knowledge?</p>
+                    <button type="submit">Take Quiz</button>
+                </form>
+            </main>
+        </div>
+
+        <div>
+            <p>Wireframe for "Question Page" view</p>
+            <header>
+                <span class="question-tracker">Question: 1/10</span>
+                <span class="score-tracker">Current Score: 0</span>
+            </header>
+    
+            <main role="main">
+                <form role="form" method="POST">
+                    <p>Which band is the only to perform on all 7 continents?</p>
+                    <label>
+                        <input type="radio" name="answer" value=0 required>AC/DC
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value=1 required>Coldplay
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value=2 required>Metallica
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value=3 required>The Rolling Stones
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+            </main>
+        </div>
+
+        <div>
+            <p>Wireframe for "Question Results Page (correct answer)" view</p>
+            <header>
+                <span class="question-tracker">Question: 1/10</span>
+                <span class="score-tracker">Current Score: 1</span>
+            </header>
+    
+            <main role="main">
+                <form role="form" method="POST">
+                    <p>That's correct!</p>
+                    <button type="submit">Next</button>
+                </form>
+            </main>
+        </div>
+
+        <div>
+            <p>Wireframe for "Question Results Page (incorrect answer)" view</p>
+            <header>
+                <span class="question-tracker">Question: 1/10</span>
+                <span class="score-tracker">Current Score: 0</span>
+            </header>
+    
+            <main role="main">
+                <form role="form" method="POST">
+                    <p>Sorry, that's incorrect!</p>
+                    <p>The correct answer is Metallica</p>
+                    <button type="submit">Next</button>
+                </form>
+            </main>
+        </div>
+
+        <div>
+            <p>Wireframe for "Final Results Page" view</p>
+            <header>
+                <h1>Music Quiz</h1>
+            </header>
+    
+            <main role="main">
+                <form role="form" method="POST">
+                    <p>Congratulations! Your score is 7/10</p>
+                    <p>To learn more about these and other random music facts, click 
+                        <a href="https://bestlifeonline.com/music-facts/
+                        ?fbclid=IwAR0aBQccjRXkY6qeKrYpql--58kYF93E_t_R1mANkXr6Jd0p8ubzbl4YIJk" target="_blank">here</a>
+                    </p>
+                    <button type="submit">Try Again</button>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
